@@ -12,3 +12,15 @@ body {
 	color: #333;
 	min-height: 100%;
 }
+header {
+	background-color: #afafaf;
+	height: 20px;
+}
+main {
+	background-color: #afafaf;
+	height: 200px;
+}
+section {
+	background-color: green;
+	height: 100px;
+}
