@@ -23,6 +23,7 @@ main {
 section {
 	background-color: green;
 	height: 100px;
+	width: 30%;
 }
 main::after {
 	clear: both;
