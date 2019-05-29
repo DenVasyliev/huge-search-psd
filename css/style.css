@@ -27,6 +27,7 @@ section {
 	background-color: green;
 	height: 100px;
 	width: 30%;
+	margin: 10px;
 }
 main::after {
 	clear: both;
