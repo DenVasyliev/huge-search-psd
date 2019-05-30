@@ -11,8 +11,9 @@ body {
 	font-size: 1.6rem;
 	color: #333;
 	min-height: 100%;
-	margin: 0;
+	/*margin: auto;*/
 	padding: 0;
+	width: 100%;
 }
 header {
 	background-color: #afafaf;
@@ -21,12 +22,14 @@ header {
 main {
 	background-color: #afafaf;
 	height: 100%;
+	/*width: 100%;*/
 	font-size: 1.2rem;
 	padding: 0;
-	margin: 0;
+	margin: auto;
 }
 
 section {
+	display: inline-block;
 	background-color: green;
 	height: 425px;
 	width: 28%;
@@ -43,17 +46,21 @@ ul {
 	margin: 0 10px;
 	padding: 0;
 	color: #c2c2c2;
+	box-sizing: border-box;
+
 }
 
 li {
 	list-style: none;
 	display: inline-block;
 	background-color: white;
-	width: 280px;
+	/*width: 280px;*/
 	vertical-align: middle;
 	text-align: left;
 	border: 1px solid black;
 	margin-top: 2px;
+	width: auto;
+	width: 100%;
 }
 
 .people {
@@ -68,10 +75,10 @@ li {
 .recent {
 	position: relative;
 	left: 700px;
-	top: 15px;
+	/*top: 15px;*/
 }
 .recent h2 {
-	padding-top: 15px;
+	/*padding-top: 15px;*/
 }
 .people img {
 	border-radius: 25px;
