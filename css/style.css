@@ -14,7 +14,8 @@ body {
 	padding: 0;
 	width: 100%;
 	background-color: #f1f1f1;
-}
+} 
+
 
 main {
 	height: 100%;
@@ -29,6 +30,7 @@ section {
 	width: 28%;
 	margin: 15px 30px 0 35px;
 	padding: 0px;
+	color: #c2c2c2;
 }
 
 h2{
@@ -81,6 +83,7 @@ button {
 
 .editor__form {
 	padding: 40px 0 40px 60px;
+	/* color: #c2c2c2; */
 }
 
 .editor__input {
@@ -91,8 +94,9 @@ button {
 	padding: 10px 2px 20px;
 	background-color: #f1f1f1;
 	border: none;
+	opacity: 0.5;
 	outline: 0;
-	color: #c2c2c2;
+	color: #ec5a62;
 }
 
 .people {
