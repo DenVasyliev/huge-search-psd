@@ -11,40 +11,33 @@ body {
 	font-size: 1.6rem;
 	color: #333;
 	min-height: 100%;
-	/*margin: auto;*/
 	padding: 0;
 	width: 100%;
 	background-color: #f1f1f1;
 }
-header {
-	background-color: #afafaf;
-	height: 60px;
-}
+
 main {
-	/*background-color: #f1f1f1;*/
 	height: 100%;
-	/*width: 100%;*/
 	font-size: 1.2rem;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 section {
 	display: inline-block;
-	/*background-color: white;*/
 	height: 425px;
 	width: 28%;
-	margin: 15px;
+	margin: 15px 30px 0 35px;
 	padding: 0px;
 }
 
 h2{
 	color: #c2c2c2;
 }
+
 ul {
 	margin: 0 10px;
 	padding: 0;
-	
 	box-sizing: border-box;
 }
 
@@ -52,19 +45,14 @@ li {
 	list-style: none;
 	display: inline-block;
 	background-color: white;
-	/*width: 280px;*/
 	vertical-align: middle;
 	text-align: left;
 	background-color: rgb(235,235,237);
-	/*opacity: 0.8;*/
-	/*border: 1px solid black;*/
 	margin-top: 2px;
 	width: auto;
 	width: 100%;
 }
-/*img {
-	position: absolute;
-}*/
+
 span {
 	position: relative;
 	bottom: 20px;
@@ -73,28 +61,69 @@ span {
 	letter-spacing: -0.5px;
 }
 
+div {
+	width: 60%;
+	position: relative;
+}
+
+button {
+	width: 100px;
+	height: 100px;
+	border: none;
+	position: absolute;
+	left: 900px;
+	top: 50px;
+	padding: 15px;
+	outline: 0;
+	border-color: #c1c1c1;
+	background-color: #f1f1f1;
+}
+
+.editor__form {
+	padding: 40px 0 40px 60px;
+}
+
+.editor__input {
+	display: inline-block;
+	width: 80%;
+	font-size: 8rem;
+	font-weight: 700;
+	padding: 10px 2px 20px;
+	background-color: #f1f1f1;
+	border: none;
+	outline: 0;
+	color: #c2c2c2;
+}
+
 .people {
 	position: absolute;
 }
+
 .popular {
 	position: relative;
 	left: 350px;
-	/* top: 20px; */
 	position: absolute;
 }
+
 .recent {
 	position: relative;
 	left: 700px;
-	/*top: 15px;*/
 }
-.recent h2 {
-	/*padding-top: 15px;*/
-}
+
 .people img {
 	border-radius: 25px;
 }
+
 ul li:hover {
-	color: #ec5a62;;
+	color: #ec5a62;
 	background-color: #e4e4e6;
-	/*opacity: 0.5;*/
+}
+
+.editor__input:focus {
+	border-bottom-color: #fff;
+	border: 1px solid black;
+}
+
+button:active {
+	border: 1px solid black;
 }
